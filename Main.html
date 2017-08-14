@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tag Music</title>
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <script type="text/javascript" src="Music.js" > </script>
+  </head>
+
+
+  <body>
+    <header>
+      <div class="Music-Info">
+        <div class="Music-Button">
+          <img class="Music-Button-Play" src="image/UI/Button_Play.png" alt="" onclick="MusicPlay()">
+          <img class="Music-Button-Pause" src="image/UI/Button_Pause.png" alt="" onclick="MusicPause()">
+        </div>
+
+        <div class="Music-Image">
+          <img class="Music-Image-img" src="image/logo.png" alt="">
+        </div>
+
+        <ul class="Music-Info-ul">
+          <li class="Music-Info-Title">!!!カオスタイム!!!</li>
+          <li class="Music-Info-Artist">t + pazolite</li>
+        </ul>
+      </div>
+
+      <div class="Music-Bar">
+
+      </div>
+      <div class="Music-Bar-BG">
+
+      </div>
+    </header>
+
+
+    <article class="">
+      <img class="Main-Logo-img" src="image/logo.png" alt="">
+      <br>
+      Hello World?
+      <br>
+      <audio class="Music-Source">
+        <source src="music/test.mp3" type="audio/mp3">
+      </audio>
+      <p class="demo" style="color : black">asdfsd</p>
+      <div id="slider"></div>
+      <script>
+        $( "#slider" ).slider();
+      </script>
+    </article>
+
+
+    <footer>
+
+    </footer>
+
+    <script type="text/javascript">
+      MusicbarUpdate();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+  margin: 0;
+  background-color: lightgray;
+  font-family: 'Noto Sans KR';
+  font-weight: 100;
+}
+
+header {
+  float: left;
+
+  width: 100%;
+  margin: 0;
+
+  background-color: #3A3A3A;
+}
+
+.Music-Image {
+  float: left;
+  margin: 0;
+  background-color: gray;
+  height: 70px;
+  width: 70px;
+}
+
+.Music-Image-img {
+  height: 70px;
+  width: 70px;
+}
+
+.Music-Info {
+  height: 70px;
+}
+
+.Music-Info-ul {
+  margin: 0;
+  padding-left: 90px;
+  padding-top: 3px;
+  list-style: none;
+}
+
+.Music-Info-Title {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.Music-Info-Artist {
+  color: gray;
+  font-size: 14px;
+  margin-top: -4px;
+}
+
+.Music-Bar {
+  background-color: #85B6FF;
+  height: 5px;
+  width: 0;
+  float: left;
+}
+.Music-Bar-BG {
+  background-color: #41526B;
+  height: 5px;
+  width: 100%;
+}
+
+.Music-Button {
+  margin-top: 15px;
+  margin-right: 20px;
+  float: right;
+}
+
+.Music-Button-Play{
+  width: 40px;
+}
+
+.Music-Button-Pause {
+  display: none;
+  width: 40px;
+}
+
+article {
+  background-color: white;
+  padding: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.Main-Logo-img {
+  text-align: center;
+  width: auto;
+}
